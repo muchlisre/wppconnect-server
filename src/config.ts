@@ -1,17 +1,17 @@
 import { ServerOptions } from './types/ServerOptions';
 
 export default {
-  secretKey: 'THISISMYSECURETOKEN',
+  secretKey: 'bismillah',
   host: 'http://localhost',
   port: '21465',
-  deviceName: 'WppConnect',
+  deviceName: 'WADAQU',
   poweredBy: 'WPPConnect-Server',
   startAllSession: true,
   tokenStoreType: 'file',
   maxListeners: 15,
-  customUserDataDir: './userDataDir/',
+  customUserDataDir: '/DATA/AppData/whatsaap',
   webhook: {
-    url: null,
+    url: 'https://hkdk.events/xrrcdmzxav4fwc',
     autoDownload: true,
     uploadS3: false,
     readMessage: true,
